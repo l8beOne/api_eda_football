@@ -8,11 +8,17 @@ beautifulsoup4==4.14.2
     # via bs4
 bs4==0.0.2
 certifi==2025.10.5
-    # via selenium
+    # via
+    #   requests
+    #   selenium
+charset-normalizer==3.4.4
+    # via requests
 h11==0.16.0
     # via wsproto
 idna==3.11
-    # via trio
+    # via
+    #   requests
+    #   trio
 narwhals==2.10.1
     # via plotly
 numpy==2.3.4
@@ -29,8 +35,10 @@ pysocks==1.7.1
     # via urllib3
 python-dateutil==2.9.0.post0
     # via pandas
+python-dotenv==1.2.1
 pytz==2025.2
     # via pandas
+requests==2.32.5
 selenium==4.38.0
 six==1.17.0
     # via python-dateutil
@@ -53,7 +61,9 @@ typing-extensions==4.15.0
 tzdata==2025.2
     # via pandas
 urllib3==2.5.0
-    # via selenium
+    # via
+    #   requests
+    #   selenium
 websocket-client==1.9.0
     # via selenium
 wsproto==1.2.0
