@@ -3,3 +3,8 @@ numpy
 bs4
 plotly
 selenium
+requests
+python-dotenv
+matplotlib
+seaborn
+nbformat
